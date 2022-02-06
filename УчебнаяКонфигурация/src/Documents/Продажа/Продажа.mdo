@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="42581de7-8725-454b-abbf-c98f96b2e18d">
+  <producedTypes>
+    <objectType typeId="1c3a91e1-6548-41ff-9ca0-11a94bf5ef70" valueTypeId="3f9ab10b-fa69-418e-b1a7-66f7b9a35f89"/>
+    <refType typeId="4ed89265-ede0-4501-a9ba-a67b7fc17639" valueTypeId="ed7443c1-c234-4827-839f-891409fab751"/>
+    <selectionType typeId="205f5155-90a2-4c2c-9fda-8d7a3b2c71b0" valueTypeId="cbd33480-3a52-41da-9b8a-a7ca9947bb41"/>
+    <listType typeId="782b0da8-e191-4cf6-b91c-0e23d2ed95a9" valueTypeId="7fff1f69-e945-4701-950a-03ed4334780c"/>
+    <managerType typeId="1f6868d4-9ae0-42f9-a4db-837ba55713b8" valueTypeId="7ae84cbc-3635-4144-9b73-5f7b809aea89"/>
+  </producedTypes>
+  <name>Продажа</name>
+  <synonym>
+    <key>en</key>
+    <value>Продажа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Продажа.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.Продажа.Form.DocumentForm</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="bfbeb461-00f4-4339-815b-be0756596368">
+    <name>DocumentForm</name>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="d48ea1b5-c815-40c1-81c3-ec75b8d8a4b7">
+    <producedTypes>
+      <objectType typeId="0f95b31e-1752-4afc-9aae-bdfaa51492e4" valueTypeId="588ce1ba-4e82-498a-93ab-ee6969cc93f9"/>
+      <rowType typeId="7d571aef-9e68-457b-aa65-96d06b5a4145" valueTypeId="c461cae7-3a88-4bee-adc0-9552c03bd12a"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>en</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="d2160b0b-164e-47d6-a33a-e1233686ac53">
+      <name>Товар</name>
+      <synonym>
+        <key>en</key>
+        <value>Товар</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="01bd1fec-6df2-47a6-b7d3-1f77cb52466f">
+      <name>Цена</name>
+      <synonym>
+        <key>en</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ТипСумма</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3a6b9aa4-3d7d-4bba-ae79-5038a18682ff">
+      <name>Количество</name>
+      <synonym>
+        <key>en</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ТипКоличество</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="acffae9b-cd33-4d48-9e1e-0c659b657750">
+      <name>Сумма</name>
+      <synonym>
+        <key>en</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>DefinedType.ТипСумма</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
