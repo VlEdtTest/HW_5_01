@@ -561,6 +561,7 @@
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
     <searchStringLocation>None</searchStringLocation>
+    <viewStatusLocation>None</viewStatusLocation>
   </items>
   <autoCommandBar>
     <name>FormCommandBar</name>
@@ -573,6 +574,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>OnCreateAtServer</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
