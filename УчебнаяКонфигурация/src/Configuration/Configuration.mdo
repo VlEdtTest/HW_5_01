@@ -38,6 +38,7 @@
     </synonym>
     <languageCode>en</languageCode>
   </languages>
+  <commonModules>CommonModule.ПересчетТабличнойЧастиКлиент</commonModules>
   <definedTypes>DefinedType.ТипКоличество</definedTypes>
   <definedTypes>DefinedType.ТипСумма</definedTypes>
   <catalogs>Catalog.Номенклатура</catalogs>

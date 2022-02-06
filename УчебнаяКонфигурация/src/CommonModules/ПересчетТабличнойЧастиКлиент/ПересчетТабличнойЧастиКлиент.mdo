@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8528de0-bc85-4cea-bf33-4dffa4366457">
+  <name>ПересчетТабличнойЧастиКлиент</name>
+  <synonym>
+    <key>en</key>
+    <value>Пересчет табличной части клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
